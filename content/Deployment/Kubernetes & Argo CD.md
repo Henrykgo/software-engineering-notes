@@ -12,7 +12,7 @@ Argo CD watches the Kubernetes configuration stored in Git and makes the cluster
 
 Git is the source of truth: if the cluster differs from Git, Argo CD shows the application as **OutOfSync**. Syncing applies the desired configuration from Git to the cluster.
 
-### How i used it - CI then CD
+### Example on how it can be used - CI then CD
 1. Merge to `dev` in GitLab -> run tests, build the application, and creates a versioned container image.
 2. The deployment config is updated to reference the new image version in Git.
 3. Argo CD detects the Git change and shows the application as OutOfSync.

@@ -16,7 +16,7 @@ Newer, smaller SSTables are repeatedly merged into older, larger ones, so the ol
 
 
 ### Used in?
-This algorithm (LSM storage Engines) are used in: RocksDB, Cassandra, ScyllaDB and Hbase all of these were inpsired by Google's Bigtable paper (introduced terms such as SSTable and memtable).
+This algorithm (LSM storage Engines) are used in: RocksDB, Cassandra, ScyllaDB and HBase all of these were inspired by Google's Bigtable paper (introducing terms such as SSTable and memtable).
 
 
 ## Compare with
